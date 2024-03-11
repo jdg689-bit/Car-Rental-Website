@@ -1,0 +1,39 @@
+/* Navbar */
+.navbar-top {
+    margin-left: -2rem;
+    margin-right: -2rem;
+    height: 60px;
+    background-color: rgb(221, 221, 221);
+    display: flex;
+    padding: 0px 40px;
+    justify-content: space-between;
+  }
+  ul.navbar-body {
+    list-style-type: none;
+  }
+  .navbar-body li {
+    display: inline;
+    padding: 0px 20px;
+  }
+  #company-logo {
+    height: 100%;
+  }
+  .navbar-body {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    padding: 0px;
+    margin: 0px;
+  }
+  .registration-buttons {
+    display: flex;
+    align-items: center;
+  }
+  #register-btn {
+    background-color: rgb(212, 0, 42);
+    color: white;
+    border-radius: 3px;
+    padding: 10px 20px;
+    box-shadow: 0 10px 15px 0 rgba(212,0,42,.35);
+    margin-left: 20px;
+  }

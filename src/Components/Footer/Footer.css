@@ -1,0 +1,38 @@
+/* footer */
+footer {
+    background: rgb(74, 74, 74);
+    color: white;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    padding: 10px;
+    padding-bottom: 50px;
+    margin-top: 20px;
+    margin-left: -2rem;
+    margin-right: -2rem;
+  }
+  footer h3 {
+    margin-top: 5px;
+  
+  }
+  footer li {
+    list-style: none;
+    margin: 2px 0px;
+  }
+  .footer-link {
+    color: white;
+    font-weight: 200;
+  }
+  .footer-link:hover {
+    cursor: pointer;
+    text-decoration: underline;
+  }
+  .footer-column {
+    display: flex;
+    flex-direction: column;
+    padding-left: 25px;
+  }
+  .container {
+    text-align: left;
+    margin: auto;
+    height: 100%;
+  }

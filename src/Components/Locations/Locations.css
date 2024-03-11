@@ -1,0 +1,9 @@
+#map-container {
+    height: 800px;
+    border: 1px solid black;
+    margin: 10px;
+}
+#map-container li {
+    margin-bottom: 10px;
+    text-align: left;
+}

@@ -1,0 +1,164 @@
+#homepage-container {
+    max-width: 1280px;
+    margin: auto;
+}
+h1 {
+    font-size: 3.2em;
+    line-height: 1.1;
+    color: rgb(212, 0, 42);
+    text-align: left;
+    margin: 0px;
+    padding-left: 10px;
+}
+
+/* Title Card */
+#home-card {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 5px;
+}
+#home-card .text-container {
+    width: 40%;
+}
+.img-container {
+    width: 50%;
+}
+#home-card img {
+    width: 100%;
+}
+#home-card p, #promo-header p {
+    width: 100%;
+    text-align: left;
+    color: rgb(103, 103, 103);
+    padding-left: 10px;
+}
+
+
+/* Booking Form */
+.booking-container {
+    background-color: white;
+    padding: 2px 2px 20px 2px;
+}
+#booking-details {
+    display: inline-grid;
+    width: 100%;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+}
+.title-text {
+    text-align: left;
+    padding-left: 20px;
+    margin-bottom: 0px;
+}
+.fields-required-text {
+    text-align: left;
+    padding-left: 20px;
+    margin-top: 4px;
+}
+.form-field {
+    margin: 2px;
+    padding: 2px;
+}
+.form-button {
+    width: 90%;
+    height: 40px;
+    position: relative;
+    top: 28px;
+}
+select {
+    width: 90%;
+    height: 40px;
+    font-size: medium;
+}
+input {
+    width: 90%;
+    height: 40px;
+}
+label {
+    float: left;
+    margin-left: 5%;
+    margin-bottom: 2px;
+}
+
+
+/* Large banner */
+.large-banner-ad-container {
+    height: 325px;
+    overflow: hidden;
+    margin: 20px auto;
+}
+.large-banner-ad-container img {
+    width: 100%;
+    position: relative;
+    top: -400px;
+}
+.large-banner-text{
+    z-index: 1;
+    color: black;
+    text-align: left;
+    position: absolute;
+    margin: 0px;
+    padding-left: 1%;
+}
+
+
+/* Promos section */
+#promo-header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 45px;
+    margin-bottom: 30px;
+}
+#promo-header .text-container {
+    text-align: left;
+    width: 70%;
+    display: inline-block;
+}
+.services-button {
+    width: 20%;
+    margin: 10px;
+    margin-right: 80px;
+}
+.promotions-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+}
+.promo-container {
+    padding: 3px;
+    margin: 10px auto;
+}
+.promo-image-container {
+    width: 350px;
+    height: 233px;
+    overflow: hidden;
+    display: inline-block;
+}
+.promo-image-container img {
+    height: 100%;
+}
+.promo-container h2 {
+    text-align: left;
+    padding: 0px;
+    margin-top: 10px;
+}
+.promo-container p {
+    text-align: left;
+    margin: 0px;
+}
+.promo-text-container {
+    margin-left: calc((100% - 350px) / 2);
+}
+.promo-link {
+    text-align: left;
+    display: inline-block;
+    width: 100%;
+    margin-top: 10px;
+    font-size: large;
+    font-weight: bold;
+}
+.promo-link:hover {
+    color: rgb(186, 0, 37);
+}

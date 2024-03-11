@@ -1,0 +1,112 @@
+#gallery-header {
+  background-image: url('../../assets/background-images/road-background.jpg');
+  background-position: 0 72%;
+}
+.vehicle-container {
+  background-color: white;
+  display: inline-block;
+  width: calc(50% - 40px);
+  margin: 5px;
+  padding: 15px;
+}
+.vehicle-info-wrapper {
+  display: flex;
+  justify-content: space-between;
+  margin: 0px;
+  padding: 0px;
+}
+.vehicle-info {
+  text-align: left;
+  margin: 0px;
+  padding: 0px;
+}
+h2.vehicle-type {
+  margin: 0px;
+  padding: 0px;
+  line-height: 100%;
+}
+a.vehicle-details {
+  display: flex;
+  align-items: baseline;
+}
+.red-down-arrow {
+  display: inline-block;
+  background-image: url('../../assets/feature-icons/down-arrow.png');
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+  top: 2px;
+  width: 12px;
+  height: 12px;
+  margin-left: 5px;
+}
+.red-cross {
+  display: inline-block;
+  background-image: url('../../assets/feature-icons/cross.png');
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 12px;
+  height: 12px;
+  margin-left: 5px;
+}
+
+/* Sliding details panel */
+.content-container {
+  overflow-y: hidden;
+  height: 200px;
+}
+.sliding-panel-wrapper {
+  position: relative;
+  top: -200px;
+  transition-duration: 0.85s;
+}
+.details-gray-bg {
+  background-color: lightgray;
+  height: 150px;
+  margin-bottom: 50px;
+  width: 100%;
+  padding-top: 10px;
+}
+.details-visible {
+  transform: translateY(200px);
+}
+
+.spec-icons {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.description p{
+  margin-left: 10px;
+  text-align: left;
+}
+
+.icon {
+  width: 22px;
+  height: 22px;
+  display: inline-block;
+  background-size: 100%;
+  vertical-align: top;
+  background-position: center;
+  margin-right: 3px;
+  }
+.door-icon {
+  background-image: url('../../assets/feature-icons/doors.png');
+  margin-right: 4px;
+}
+.seats-icon {
+  background-image: url('../../assets/feature-icons/seats.png');
+}
+.trans-icon {
+  background-image: url('../../assets/feature-icons/transmission.png');
+}
+.large-bag-icon {
+  background-image: url('../../assets/feature-icons/bag.png');
+}
+.small-bag-icon {
+  background-image: url('../../assets/feature-icons/bag.png');
+  scale: 85%;
+}
