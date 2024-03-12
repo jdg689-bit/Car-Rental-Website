@@ -2,6 +2,14 @@ import './Gallery.css'
 import { useState } from 'react';
 // import carImg from '../../assets/vehicle-library/kluger.jpeg'
 
+import suzukiSwift from '../..assets/vehicle-library/2021-suzuki-swift-gl-navigator-red_featured.avif';
+import corollaHatch from '../..assets/vehicle-library/2022-toyota-corolla-hatch-pacific-black_featured.avif';
+import corollaSedan from '../..assets/vehicle-library/2022-toyota-corolla-sedan-pacific-black_featured.avif';
+import toyotaCamry from '../..assets/vehicle-library/2022-toyota-camry-accent-pacific-red_featured.avif';
+import toyotaCHR from '../..assets/vehicle-library/2022-toyota-c-hr-nightshade-edition-suv-black_featured.avif';
+import toyotaKluger from '../..assets/vehicle-library/2022-toyota-kluger-gx-pacific-black_featured.avif';
+import kiaCarnival from '../..assets/vehicle-library/2022-kia-carnival-s-pacific-red_featured.avif';
+import bmwX5 from '../..assets/vehicle-library/2022-bmw-x5-xdrive40i-xline-design-4wd-suv-black_featured.avif';
 
 const DETAILS = {
   doors: '5 Door',
@@ -17,56 +25,56 @@ const CAR_DATA = [{
   id: 'COMPACT',
   info: 'Suzuki Swift or similar',
   img: {
-      path: './car-rental-deploy/src/assets/vehicle-library/kluger.jpeg',
+      src: {suzukiSwift},
       alt: 'suzuki-swift'
   }
 }, {
   id: 'INTERMEDIATE',
   info: 'Toyota Corolla Hatch or similar',
   img: {
-      path: '../../assets/vehicle-library/kluger.jpeg',
+      src: {corollaHatch},
       alt: 'toyota-corolla-hatch'
   }
 }, {
   id: 'STANDARD',
   info: 'Toyota Corolla Sedan or similar',
   img: {
-      path: 'car-rental/main/src/assets/vehicle-library/kluger.jpeg',
+      src: {corollaSedan},
       alt: 'toyota-corolla-sedan'
   }
 }, {
   id: 'FULL-SIZE',
   info: 'Toyota Camry or similar',
   img: {
-      path: '/car-rental/assets/vehicle-library/2022-toyota-camry-accent-pacific-red_featured.avif',
+      src: {toyotaCamry},
       alt: 'toyota-camry'
   }
 }, {
   id: 'COMPACT SUV',
   info: 'Toyota C-HR or similar',
   img: {
-      path: './src/assets/vehicle-library/2022-toyota-c-hr-nightshade-edition-suv-black_featured.avif',
+      src: {toyotaCHR},
       alt: 'toyota-c-hr'
   },
 }, {
   id: 'FULL-SIZE SUV',
   info: 'Toyota Kluger or similar',
   img: {
-      path: 'src/assets/kluger.jpeg',
+      src: {toyotaKluger},
       alt: 'toyota-kluger'
   }
 }, {
   id: 'FULL-SIZE VAN',
   info: 'Kia Carnival or similar',
   img: {
-      path: 'src/assets/vehicle-library/2022-kia-carnival-s-pacific-red_featured.avif',
+      src: {kiaCarnival},
       alt: 'kia-carnival'
   }
 }, {
   id: 'SIGNATURE SERIES',
   info: 'BMW X5 or similar',
   img: {
-      path: 'src/assets/vehicle-library/2022-bmw-x5-xdrive40i-xline-design-4wd-suv-black_featured.avif',
+      src: {bmwX5},
       alt: 'bmw-x5'
   }
 }];
@@ -128,7 +136,7 @@ const [detailsHidden, setDetailsHidden] = useState(true);
             <div className={`sliding-panel-wrapper ${!detailsHidden ? 'details-visible' : ''}`}>
               <DetailsPanel vehicleDetails={DETAILS}/>
               <img className="vehicle-img"
-                  src={vehicleInfo.img.path} 
+                  src={vehicleInfo.img.src} 
                   alt={vehicleInfo.img.alt}
                   height={200} 
               />
