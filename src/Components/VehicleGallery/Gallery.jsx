@@ -1,6 +1,8 @@
 import {CAR_DATA} from './car_data.js'
 import './Gallery.css'
 import { useState } from 'react';
+import redSuzuki from '../../assets/vehicle-library/2021-suzuki-swift-gl-navigator-red_featured.avif';
+
 
 
 const DETAILS = {
@@ -70,7 +72,7 @@ const [detailsHidden, setDetailsHidden] = useState(true);
             <div className={`sliding-panel-wrapper ${!detailsHidden ? 'details-visible' : ''}`}>
               <DetailsPanel vehicleDetails={DETAILS}/>
               <img className="vehicle-img"
-                  src={vehicleInfo.img.path} 
+                  src={redSuzuki} 
                   alt={vehicleInfo.img.alt}
                   height={200} 
               />
