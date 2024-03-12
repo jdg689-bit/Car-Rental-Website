@@ -2,7 +2,7 @@ export const CAR_DATA = [{
     id: 'COMPACT',
     info: 'Suzuki Swift or similar',
     img: {
-        path: '/main/src/assets/vehicle-library/kluger.jpeg',
+        path: '../../assets/vehicle-library/kluger.jpeg',
         alt: 'suzuki-swift'
     }
 }, {
