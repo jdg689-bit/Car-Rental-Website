@@ -2,7 +2,7 @@ export const CAR_DATA = [{
     id: 'COMPACT',
     info: 'Suzuki Swift or similar',
     img: {
-        path: './assets/vehicle-library/kluger.jpeg',
+        path: '../../assets/vehicle-library/kluger.jpeg',
         alt: 'suzuki-swift'
     }
 }, {
@@ -30,7 +30,7 @@ export const CAR_DATA = [{
     id: 'COMPACT SUV',
     info: 'Toyota C-HR or similar',
     img: {
-        path: 'src/assets/vehicle-library/2022-toyota-c-hr-nightshade-edition-suv-black_featured.avif',
+        path: './src/assets/vehicle-library/2022-toyota-c-hr-nightshade-edition-suv-black_featured.avif',
         alt: 'toyota-c-hr'
     },
 }, {
