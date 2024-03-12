@@ -136,7 +136,7 @@ const [detailsHidden, setDetailsHidden] = useState(true);
             <div className={`sliding-panel-wrapper ${!detailsHidden ? 'details-visible' : ''}`}>
               <DetailsPanel vehicleDetails={DETAILS}/>
               <img className="vehicle-img"
-                  src={carImg} 
+                  src={vehicleInfo.img.src} 
                   alt={vehicleInfo.img.alt}
                   height={200} 
               />
