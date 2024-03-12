@@ -25,56 +25,56 @@ const CAR_DATA = [{
   id: 'COMPACT',
   info: 'Suzuki Swift or similar',
   img: {
-      src: {suzukiSwift},
+      src: suzukiSwift,
       alt: 'suzuki-swift'
   }
 }, {
   id: 'INTERMEDIATE',
   info: 'Toyota Corolla Hatch or similar',
   img: {
-      src: {corollaHatch},
+      src: corollaHatch,
       alt: 'toyota-corolla-hatch'
   }
 }, {
   id: 'STANDARD',
   info: 'Toyota Corolla Sedan or similar',
   img: {
-      src: {corollaSedan},
+      src: corollaSedan,
       alt: 'toyota-corolla-sedan'
   }
 }, {
   id: 'FULL-SIZE',
   info: 'Toyota Camry or similar',
   img: {
-      src: {toyotaCamry},
+      src: toyotaCamry,
       alt: 'toyota-camry'
   }
 }, {
   id: 'COMPACT SUV',
   info: 'Toyota C-HR or similar',
   img: {
-      src: {toyotaCHR},
+      src: toyotaCHR,
       alt: 'toyota-c-hr'
   },
 }, {
   id: 'FULL-SIZE SUV',
   info: 'Toyota Kluger or similar',
   img: {
-      src: {toyotaKluger},
+      src: toyotaKluger,
       alt: 'toyota-kluger'
   }
 }, {
   id: 'FULL-SIZE VAN',
   info: 'Kia Carnival or similar',
   img: {
-      src: {kiaCarnival},
+      src: kiaCarnival,
       alt: 'kia-carnival'
   }
 }, {
   id: 'SIGNATURE SERIES',
   info: 'BMW X5 or similar',
   img: {
-      src: {bmwX5},
+      src: bmwX5,
       alt: 'bmw-x5'
   }
 }];
