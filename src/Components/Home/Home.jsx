@@ -2,7 +2,8 @@ const ASSETS_PATH = 'C:/Users/Jacob de Graaf/Documents/javascript/REACT/car-rent
 import { useState } from 'react'
 
 import './Home.css';
-import * as images from '../../assets/banner-ads';
+import redSuzuki from '../../assets/vehicle-library/2021-suzuki-swift-gl-navigator-red_featured.avif';
+import * as images from '../../assets/banner-ads'
 
 function TitleCard() {
     return (
