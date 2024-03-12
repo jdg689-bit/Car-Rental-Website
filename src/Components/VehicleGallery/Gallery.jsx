@@ -25,7 +25,7 @@ const CAR_DATA = [{
   id: 'COMPACT',
   info: 'Suzuki Swift or similar',
   img: {
-      src: suzukiSwift,
+      src: require('../../assets/vehicle-library/2021-suzuki-swift-gl-navigator-red_featured.avif').default,
       alt: 'suzuki-swift'
   }
 }, {
