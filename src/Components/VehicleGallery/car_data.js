@@ -2,14 +2,14 @@ export const CAR_DATA = [{
     id: 'COMPACT',
     info: 'Suzuki Swift or similar',
     img: {
-        path: './src/assets/vehicle-library/2021-suzuki-swift-gl-navigator-red_featured.avif',
+        path: 'assets/vehicle-library/2021-suzuki-swift-gl-navigator-red_featured.avif',
         alt: 'suzuki-swift'
     }
 }, {
     id: 'INTERMEDIATE',
     info: 'Toyota Corolla Hatch or similar',
     img: {
-        path: 'src/assets/vehicle-library/2022-toyota-corolla-hatch-pacific-black_featured.avif',
+        path: '/assets/vehicle-library/2022-toyota-corolla-hatch-pacific-black_featured.avif',
         alt: 'toyota-corolla-hatch'
     }
 }, {
