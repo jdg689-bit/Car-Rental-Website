@@ -5,8 +5,10 @@ import companyLogo from '../../assets/misc/car-logo.png'
 export default function Navbar() {
     return (
       <nav className='navbar-top'>
-        <a href='/' className='company-logo'>
-          <img src={companyLogo} alt="company-logo" id='company-logo' />
+        <a className='company-logo'>
+          <Link to ='/'>
+            <img src={companyLogo} alt="company-logo" id='company-logo' />
+          </Link>
         </a>
         <ul className='navbar-body'>
           <li>
