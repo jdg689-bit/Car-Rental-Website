@@ -2,14 +2,14 @@ import './Gallery.css'
 import { useState } from 'react';
 // import carImg from '../../assets/vehicle-library/kluger.jpeg'
 
-import { suzukiSwift } from '../..assets/vehicle-library/2021-suzuki-swift-gl-navigator-red_featured.avif';
-import { corollaHatch } from '../..assets/vehicle-library/2022-toyota-corolla-hatch-pacific-black_featured.avif';
-import { corollaSedan } from '../..assets/vehicle-library/2022-toyota-corolla-sedan-pacific-black_featured.avif';
-import { toyotaCamry } from '../..assets/vehicle-library/2022-toyota-camry-accent-pacific-red_featured.avif';
-import { toyotaCHR } from '../..assets/vehicle-library/2022-toyota-c-hr-nightshade-edition-suv-black_featured.avif';
-import { toyotaKluger } from '../..assets/vehicle-library/2022-toyota-kluger-gx-pacific-black_featured.avif';
-import { kiaCarnival } from '../..assets/vehicle-library/2022-kia-carnival-s-pacific-red_featured.avif';
-import { bmwX5 } from '../..assets/vehicle-library/2022-bmw-x5-xdrive40i-xline-design-4wd-suv-black_featured.avif';
+import { suzukiSwift } from '../../assets/vehicle-library/2021-suzuki-swift-gl-navigator-red_featured.avif';
+import { corollaHatch } from '../../assets/vehicle-library/2022-toyota-corolla-hatch-pacific-black_featured.avif';
+import { corollaSedan } from '../../assets/vehicle-library/2022-toyota-corolla-sedan-pacific-black_featured.avif';
+import { toyotaCamry } from '../../assets/vehicle-library/2022-toyota-camry-accent-pacific-red_featured.avif';
+import { toyotaCHR } from '../../assets/vehicle-library/2022-toyota-c-hr-nightshade-edition-suv-black_featured.avif';
+import { toyotaKluger } from '../../assets/vehicle-library/2022-toyota-kluger-gx-pacific-black_featured.avif';
+import { kiaCarnival } from '../../assets/vehicle-library/2022-kia-carnival-s-pacific-red_featured.avif';
+import { bmwX5 } from '../../assets/vehicle-library/2022-bmw-x5-xdrive40i-xline-design-4wd-suv-black_featured.avif';
 
 const DETAILS = {
   doors: '5 Door',
