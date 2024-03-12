@@ -1,6 +1,5 @@
 import './Gallery.css'
 import { useState } from 'react';
-import carImg from '../../assets/vehicle-library/kluger.jpeg'
 
 import suzukiSwift from '../../assets/vehicle-library/2021-suzuki-swift-gl-navigator-red_featured.avif';
 import corollaHatch from '../../assets/vehicle-library/2022-toyota-corolla-hatch-pacific-black_featured.avif';
@@ -25,7 +24,7 @@ const CAR_DATA = [{
   id: 'COMPACT',
   info: 'Suzuki Swift or similar',
   img: {
-      src: carImg,
+      src: suzukiSwift,
       alt: 'suzuki-swift'
   }
 }, {
