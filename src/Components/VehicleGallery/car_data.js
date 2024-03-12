@@ -2,28 +2,28 @@ export const CAR_DATA = [{
     id: 'COMPACT',
     info: 'Suzuki Swift or similar',
     img: {
-        path: 'assets/vehicle-library/2021-suzuki-swift-gl-navigator-red_featured.avif',
+        path: '/car-rental-deploy/src/assets/vehicle-library/2021-suzuki-swift-gl-navigator-red_featured.avif',
         alt: 'suzuki-swift'
     }
 }, {
     id: 'INTERMEDIATE',
     info: 'Toyota Corolla Hatch or similar',
     img: {
-        path: '/assets/vehicle-library/2022-toyota-corolla-hatch-pacific-black_featured.avif',
+        path: 'car-rental/assets/vehicle-library/2022-toyota-corolla-hatch-pacific-black_featured.avif',
         alt: 'toyota-corolla-hatch'
     }
 }, {
     id: 'STANDARD',
     info: 'Toyota Corolla Sedan or similar',
     img: {
-        path: 'src/assets/vehicle-library/2022-toyota-corolla-sedan-pacific-black_featured.avif',
+        path: 'car-rental/src/assets/vehicle-library/2022-toyota-corolla-sedan-pacific-black_featured.avif',
         alt: 'toyota-corolla-sedan'
     }
 }, {
     id: 'FULL-SIZE',
     info: 'Toyota Camry or similar',
     img: {
-        path: 'src/assets/vehicle-library/2022-toyota-camry-accent-pacific-red_featured.avif',
+        path: '/car-rental/assets/vehicle-library/2022-toyota-camry-accent-pacific-red_featured.avif',
         alt: 'toyota-camry'
     }
 }, {
