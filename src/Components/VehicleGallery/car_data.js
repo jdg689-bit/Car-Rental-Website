@@ -2,7 +2,7 @@ export const CAR_DATA = [{
     id: 'COMPACT',
     info: 'Suzuki Swift or similar',
     img: {
-        path: '/car-rental-deploy/src/assets/vehicle-library/2021-suzuki-swift-gl-navigator-red_featured.avif',
+        path: '/car-rental-deploy/main/src/assets/vehicle-library/2021-suzuki-swift-gl-navigator-red_featured.avif',
         alt: 'suzuki-swift'
     }
 }, {
@@ -16,7 +16,7 @@ export const CAR_DATA = [{
     id: 'STANDARD',
     info: 'Toyota Corolla Sedan or similar',
     img: {
-        path: 'car-rental/src/assets/vehicle-library/2022-toyota-corolla-sedan-pacific-black_featured.avif',
+        path: 'car-rental/main/src/assets/vehicle-library/2022-toyota-corolla-sedan-pacific-black_featured.avif',
         alt: 'toyota-corolla-sedan'
     }
 }, {
