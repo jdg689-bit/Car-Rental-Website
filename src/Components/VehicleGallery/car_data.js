@@ -2,21 +2,21 @@ export const CAR_DATA = [{
     id: 'COMPACT',
     info: 'Suzuki Swift or similar',
     img: {
-        path: '/car-rental-deploy/main/src/assets/vehicle-library/2021-suzuki-swift-gl-navigator-red_featured.avif',
+        path: '/car-rental-deploy/main/src/assets/kluger.jpeg',
         alt: 'suzuki-swift'
     }
 }, {
     id: 'INTERMEDIATE',
     info: 'Toyota Corolla Hatch or similar',
     img: {
-        path: 'car-rental/assets/vehicle-library/2022-toyota-corolla-hatch-pacific-black_featured.avif',
+        path: 'car-rental/assets/vehicle-library/kluger.jpeg',
         alt: 'toyota-corolla-hatch'
     }
 }, {
     id: 'STANDARD',
     info: 'Toyota Corolla Sedan or similar',
     img: {
-        path: 'car-rental/main/src/assets/vehicle-library/2022-toyota-corolla-sedan-pacific-black_featured.avif',
+        path: 'car-rental/main/src/assets/vehicle-library/kluger.jpeg',
         alt: 'toyota-corolla-sedan'
     }
 }, {
@@ -37,7 +37,7 @@ export const CAR_DATA = [{
     id: 'FULL-SIZE SUV',
     info: 'Toyota Kluger or similar',
     img: {
-        path: 'src/assets/vehicle-library/2022-toyota-kluger-gx-pacific-black_featured.avif',
+        path: 'src/assets/kluger.jpeg',
         alt: 'toyota-kluger'
     }
 }, {
