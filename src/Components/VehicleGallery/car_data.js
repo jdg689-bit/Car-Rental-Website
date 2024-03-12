@@ -1,8 +1,10 @@
+import redSuzuki from '../../assets/vehicle-library/2021-red-suzuki-swift-gl-navigator-red_featured.avif'
+
 export const CAR_DATA = [{
     id: 'COMPACT',
     info: 'Suzuki Swift or similar',
     img: {
-        path: '../../assets/vehicle-library/kluger.jpeg',
+        path: redSuzuki,
         alt: 'suzuki-swift'
     }
 }, {
