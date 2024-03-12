@@ -51,7 +51,7 @@ return (
 }
 
 
-function Vehicle({ vehicleInfo }) {
+function Vehicle({ vehicleInfo, redSuzuki }) {
 const [detailsHidden, setDetailsHidden] = useState(true);
 
   return (
