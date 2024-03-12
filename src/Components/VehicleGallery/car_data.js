@@ -9,7 +9,7 @@ export const CAR_DATA = [{
     id: 'INTERMEDIATE',
     info: 'Toyota Corolla Hatch or similar',
     img: {
-        path: 'car-rental/assets/vehicle-library/kluger.jpeg',
+        path: '../../assets/vehicle-library/kluger.jpeg',
         alt: 'toyota-corolla-hatch'
     }
 }, {
